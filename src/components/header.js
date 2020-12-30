@@ -7,7 +7,7 @@ import media from '../utils/media';
 
 const Container = styled.nav`
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-  height: 6rem;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
