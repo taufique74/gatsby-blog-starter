@@ -28,7 +28,10 @@ const Title = styled.h1`
 const Header = ({ title }) => (
   <Container>
     <StyledLink to={'/'}>
-      <Title>{title}</Title>
+      <Title>Home</Title>
+    </StyledLink>
+    <StyledLink to={'/about'}>
+      <Title>About</Title>
     </StyledLink>
   </Container>
 );
